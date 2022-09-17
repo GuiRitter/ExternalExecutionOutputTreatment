@@ -5,7 +5,7 @@
 
 	<groupId>io.github.guiritter</groupId>
 	<artifactId>external-execution-output-treatment</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<packaging>jar</packaging>
 
 	<name>External Execution Output Treatment</name>

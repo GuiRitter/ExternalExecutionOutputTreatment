@@ -33,7 +33,7 @@ public abstract class ExternalExecutionOutputTreatment {
 
 	private Process process;
 
-	public final void execute(String commands[]) throws IOException, InterruptedException {
+	public final void execute(String ...commands) throws IOException, InterruptedException {
 		process = Runtime.getRuntime().exec(commands);
 		new Thread(new ErrorReaderRunnable(new BufferedReader(
 		 new InputStreamReader(process.getErrorStream())))).start();
