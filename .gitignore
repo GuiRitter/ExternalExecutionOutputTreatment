@@ -1,4 +1,11 @@
+*.class
+target/
+bin/
+.project
+.classpath
+.settings/
+.vscode/
 
-build/
-
-nbproject/private/
+# Package Files #
+*.jar
+hs_err_pid*
