@@ -28,8 +28,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>16</maven.compiler.source>
-		<maven.compiler.target>16</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 		<exec.mainClass>io.github.guiritter.external_execution_output_treatment.ExternalExecutionOutputTreatment</exec.mainClass>
 	</properties>
 
@@ -51,9 +51,9 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.2</version>
 				<configuration>
-					<!-- Compile java 16 compatible bytecode -->
-					<source>16</source>
-					<target>16</target>
+					<!-- Compile java 8 compatible bytecode -->
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 
